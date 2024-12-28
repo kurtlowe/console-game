@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleProject
+namespace ConsoleProject;
+
+internal class DialogWelcome
 {
-    internal class DialogWelcome
+    public void DialogWelcomeText() 
     {
-        public void DialogWelcomeText() 
-        {
-            Console.Clear();
+        Console.WriteLine("Pleas Enter Your Player Name:  ");
+        string PlayerName = Console.ReadLine();
 
-            Console.WriteLine("Pleas Enter Your Player Name:  ");
-            string PlayerName = Console.ReadLine();
+        Console.Clear();
 
-            Console.WriteLine("Welcome: " + PlayerName);
-        }
+        Console.WriteLine("Welcome: " + PlayerName);
     }
 }
