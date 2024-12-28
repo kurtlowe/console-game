@@ -9,18 +9,20 @@ namespace ConsoleProject
     {
         public void Map1Generation () 
         {
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            //Building Blocks ╔ ╚ ═ ╩ ╦ ╠ ╬ ╣ ║ ╗ ╝ ░ ▒ ▓
+            Console.WriteLine("╔═══════════════════════════════════════════╗");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("║                                           ║");
+            Console.WriteLine("╚═══════════════════════════════════════════╝");
         }
     }
 }

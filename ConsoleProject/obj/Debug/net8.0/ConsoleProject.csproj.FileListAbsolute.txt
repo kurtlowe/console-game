@@ -12,3 +12,4 @@ C:\Users\kurtl\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net8.0\refin
 C:\Users\kurtl\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net8.0\ConsoleProject.pdb
 C:\Users\kurtl\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net8.0\ConsoleProject.genruntimeconfig.cache
 C:\Users\kurtl\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net8.0\ref\ConsoleProject.dll
+C:\Users\kurtl\source\repos\ConsoleProject\ConsoleProject\obj\Debug\net8.0\ConsoleProject.sourcelink.json

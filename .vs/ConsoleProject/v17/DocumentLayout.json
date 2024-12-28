@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\map1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\map1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\dialogwelcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\dialogwelcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\map1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\map1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|c:\\users\\kurtl\\source\\repos\\consoleproject\\consoleproject\\dialogwelcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CCDDC4E-0204-4DEF-AA73-3B4C965880B5}|ConsoleProject\\ConsoleProject.csproj|solutionrelative:consoleproject\\dialogwelcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleProject\\Program.cs",
               "ToolTip": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\Program.cs",
               "RelativeToolTip": "ConsoleProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T03:56:55.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DialogWelcome.cs",
               "DocumentMoniker": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\DialogWelcome.cs",
               "RelativeDocumentMoniker": "ConsoleProject\\DialogWelcome.cs",
@@ -56,28 +56,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Map1.cs",
+              "DocumentMoniker": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\Map1.cs",
+              "RelativeDocumentMoniker": "ConsoleProject\\Map1.cs",
+              "ToolTip": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\Map1.cs",
+              "RelativeToolTip": "ConsoleProject\\Map1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T04:07:42.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PlayerStats.cs",
               "DocumentMoniker": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\PlayerStats.cs",
               "RelativeDocumentMoniker": "ConsoleProject\\PlayerStats.cs",
               "ToolTip": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\PlayerStats.cs",
               "RelativeToolTip": "ConsoleProject\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T03:59:06.141Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Map1.cs",
-              "DocumentMoniker": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\Map1.cs",
-              "RelativeDocumentMoniker": "ConsoleProject\\Map1.cs",
-              "ToolTip": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\Map1.cs",
-              "RelativeToolTip": "ConsoleProject\\Map1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T04:07:42.828Z",
               "EditorCaption": ""
             }
           ]
