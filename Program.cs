@@ -1,6 +1,6 @@
 ﻿namespace ConsoleProject;
 
-internal class Program
+internal class Program //penis
 {
     static void Main(string[] args)
     {
