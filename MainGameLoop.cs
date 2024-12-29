@@ -26,6 +26,7 @@ internal class MainGameLoop
             {
                 break;
             }
+            Map1Teleport();
         }
     }
 
@@ -38,6 +39,17 @@ internal class MainGameLoop
         Y = newY;
         Console.SetCursorPosition(X, Y);
         Console.Write("@");
+    }
+
+    public void Map1Teleport() // clears console and prints map 2 into the console when desiered cords are reached
+    {
+        if (X == 25 && Y == 10) {
+            Console.Clear();
+            Map2 Generate = new Map2();
+            Generate.Map2Generation();
+            Console.SetCursorPosition(X, Y);
+            Console.Write("@");
+        }
     }
 }
 

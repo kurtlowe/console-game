@@ -1,0 +1,7 @@
+﻿Content to Add
+
+- Status effects (poison, burning, frozen)
+- Enemies
+- Items to pick up
+- Storage System
+- Keys for door progression

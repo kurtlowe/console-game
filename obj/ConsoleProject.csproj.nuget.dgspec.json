@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj": {}
+    "C:\\Users\\kurtw\\OneDrive\\Desktop\\console-game\\ConsoleProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj": {
+    "C:\\Users\\kurtw\\OneDrive\\Desktop\\console-game\\ConsoleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj",
+        "projectUniqueName": "C:\\Users\\kurtw\\OneDrive\\Desktop\\console-game\\ConsoleProject.csproj",
         "projectName": "ConsoleProject",
-        "projectPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj",
-        "packagesPath": "C:\\Users\\kurtl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\obj\\",
+        "projectPath": "C:\\Users\\kurtw\\OneDrive\\Desktop\\console-game\\ConsoleProject.csproj",
+        "packagesPath": "C:\\Users\\kurtw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kurtw\\OneDrive\\Desktop\\console-game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kurtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kurtw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
