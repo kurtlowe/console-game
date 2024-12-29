@@ -7,10 +7,46 @@ using System.Threading.Tasks;
 namespace ConsoleProject;
 internal class MainGameLoop
 {
+    public int X = 10; //int that supplies cursor position value
+    public int Y = 10;
+
     public void GameLoop() 
     {
+        Console.SetCursorPosition(X, Y); //sets cursor position to value of X & Y and prints @ at cords
+        Console.Write("@");
 
-        var X = 10; var Y = 10;
+        while (true)
+        {
+            var key = Console.ReadKey(true); //waits and reads the key the user inputs into the console without typing the char into the console
+            if (key.Key == ConsoleKey.W) { MovePlayer(X, Y - 1); }
+            if (key.Key == ConsoleKey.A) { MovePlayer(X - 1, Y); }
+            if (key.Key == ConsoleKey.S) { MovePlayer(X, Y + 1); }
+            if (key.Key == ConsoleKey.D) { MovePlayer(X + 1, Y); }
+            if (key.Key == ConsoleKey.Escape) // breaks out of loop if esc is pressed
+            {
+                break;
+            }
+        }
+    }
+
+    public void MovePlayer(int newX, int newY) //stops the game crashign when reaching edges of the console
+    {
+        if (newX < 0 || newY < 0) { return; }
+        Console.SetCursorPosition(X, Y);
+        Console.Write(" ");
+        X = newX;
+        Y = newY;
+        Console.SetCursorPosition(X, Y);
+        Console.Write("@");
+    }
+}
+
+
+/*
+ * 
+ * Original main game loop
+ * 
+var X = 10; var Y = 10;
 
         Console.SetCursorPosition(X, Y);
         Console.WriteLine("@");
@@ -55,6 +91,4 @@ internal class MainGameLoop
                 break;
             }
         }
-    }
-}
-
+ */

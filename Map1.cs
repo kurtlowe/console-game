@@ -15,7 +15,7 @@ internal class Map1
         Console.WriteLine("║         ║                                  ║");
         Console.WriteLine("║         ║                                  ║");
         Console.WriteLine("╠══╣░░░╠══╝                                  ║");
-        Console.WriteLine("║                                            ║");
+        Console.WriteLine(" ║                                            ║");
         Console.WriteLine("║                                            ║");
         Console.WriteLine("║                                            ║");
         Console.WriteLine("║                                            ║");

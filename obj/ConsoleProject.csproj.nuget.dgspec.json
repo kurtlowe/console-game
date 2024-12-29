@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\ConsoleProject.csproj": {}
+    "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\ConsoleProject.csproj": {
+    "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\ConsoleProject.csproj",
+        "projectUniqueName": "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj",
         "projectName": "ConsoleProject",
-        "projectPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\ConsoleProject.csproj",
+        "projectPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\ConsoleProject.csproj",
         "packagesPath": "C:\\Users\\kurtl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleProject\\ConsoleProject\\obj\\",
+        "outputPath": "C:\\Users\\kurtl\\source\\repos\\ConsoleApp1\\console-game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kurtl\\AppData\\Roaming\\NuGet\\NuGet.Config",
