@@ -5,3 +5,14 @@
 - Items to pick up
 - Storage System
 - Keys for door progression
+
+Next Step
+
+make an array of the map1
+and drawing from the array
+with a nice array of map + entities
+bigger game loop
+etc
+it'll be more or less done
+so its not that far off really
+just 2-3 chunky coding bits to write up

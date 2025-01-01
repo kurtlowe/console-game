@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace ConsoleProject;
 internal class MainGameLoop
 {
-    public int X = 10; //int that supplies cursor position value
-    public int Y = 10;
+    public int X = 1; //int that supplies cursor position value
+    public int Y = 1;
 
     public void GameLoop() 
     {
