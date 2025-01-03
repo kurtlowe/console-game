@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ConsoleProject;
+
+
+
 internal class MainGameLoop
 {
     public int X = 1; //int that supplies cursor position value
@@ -26,11 +29,11 @@ internal class MainGameLoop
             {
                 break;
             }
-            Map1Teleport();
+          //  Map1Teleport();
         }
     }
 
-    public void MovePlayer(int newX, int newY) //stops the game crashign when reaching edges of the console
+    public void MovePlayer(int newX, int newY) //stops the game crashing when reaching edges of the console
     {
         if (newX < 0 || newY < 0) { return; }
         Console.SetCursorPosition(X, Y);
@@ -41,7 +44,7 @@ internal class MainGameLoop
         Console.Write("@");
     }
 
-    public void Map1Teleport() // clears console and prints map 2 into the console when desiered cords are reached
+   /* public void Map1Teleport() // clears console and prints map 2 into the console when desiered cords are reached
     {
         if (X == 25 && Y == 10) {
             Console.Clear();
@@ -50,7 +53,7 @@ internal class MainGameLoop
             Console.SetCursorPosition(X, Y);
             Console.Write("@");
         }
-    }
+    }*/
 }
 
 

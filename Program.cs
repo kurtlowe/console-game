@@ -7,7 +7,7 @@ internal class Program
         Dialog Greeting = new Dialog(); // Calling and instance of a method from a different class
         Greeting.DialogWelcomeText();
 
-        MapManger MapSpawn = new MapManger();
+        MapManager MapSpawn = new MapManager();
         MapSpawn.Map1Generator();
 
         Dialog PlayerWelcome = new Dialog();
