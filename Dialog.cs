@@ -1,18 +1,18 @@
 ﻿namespace ConsoleProject;
 
-internal class Dialog
+internal class dialog
 {
-    static string PlayerName;
-    public void DialogWelcomeText() 
+    string playerName;
+    public void dialogWelcomeText() 
     {
         Console.WriteLine("Pleas Enter Your Player Name:  ");
-        PlayerName = Console.ReadLine();
+        playerName = Console.ReadLine();
 
         Console.Clear();
     }
 
-    public void DialogPlayerName()
+    public void dialogPlayerName()
     {
-        Console.WriteLine("Welcome: " + PlayerName);
+        Console.WriteLine("Welcome: " + playerName);
     }
 }
