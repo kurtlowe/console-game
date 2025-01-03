@@ -1,10 +1,10 @@
-﻿dialog greeting = new dialog(); // Calling and instance of a method from a different class
-greeting.dialogWelcomeText();
+﻿var greeting = new Dialog(); // Calling and instance of a method from a different class
+greeting.DialogWelcomeText();
 
-MapManager mapSpawn = new MapManager();
-mapSpawn.map1Generator();
+var map = new MapManager();
+map.Map1Generator();
 
-greeting.dialogPlayerName();
+greeting.DialogPlayerName();
 
-MainGameLoop gameStart = new MainGameLoop();
-gameStart.gameLoop(mapSpawn);
+var app = new MainGameLoop();
+app.GameLoop(map);

@@ -2,11 +2,10 @@
 
 internal class MainGameLoop
 {
-    
     public int X = 1; //int that supplies cursor position value
     public int Y = 1;
 
-    public void gameLoop(MapManager screenInfo) 
+    public void GameLoop(MapManager screenInfo) 
     {
         Console.SetCursorPosition(X, Y); //sets cursor position to value of X & Y and prints @ at cords
         Console.Write("@");
@@ -14,10 +13,10 @@ internal class MainGameLoop
         while (true)
         {
             var key = Console.ReadKey(true); //waits and reads the key the user inputs into the console without typing the char into the console
-            if (key.Key == ConsoleKey.W) { movePlayer(X, Y - 1); }
-            if (key.Key == ConsoleKey.A) { movePlayer(X - 1, Y); }
-            if (key.Key == ConsoleKey.S) { movePlayer(X, Y + 1); }
-            if (key.Key == ConsoleKey.D) { movePlayer(X + 1, Y); }
+            if (key.Key == ConsoleKey.W) { MovePlayer(X, Y - 1); }
+            if (key.Key == ConsoleKey.A) { MovePlayer(X - 1, Y); }
+            if (key.Key == ConsoleKey.S) { MovePlayer(X, Y + 1); }
+            if (key.Key == ConsoleKey.D) { MovePlayer(X + 1, Y); }
             if (key.Key == ConsoleKey.Escape) // breaks out of loop if esc is pressed
             {
                 break;
@@ -26,7 +25,7 @@ internal class MainGameLoop
         }
     }
 
-    public void movePlayer(int newX, int newY) //stops the game crashing when reaching edges of the console
+    public void MovePlayer(int newX, int newY) //stops the game crashing when reaching edges of the console
     {
         if (newX < 0 || newY < 0) { return; }
         Console.SetCursorPosition(X, Y);
