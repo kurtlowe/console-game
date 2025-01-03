@@ -37,7 +37,7 @@ internal class MapManager
         }
     }
 
-    public bool ScreenInfo(int testX, int testY) 
+    public bool CanWalk(int testX, int testY) 
     { 
         if (_map1Data[testY, testX] == " ") return true;
         return false;

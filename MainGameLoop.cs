@@ -5,7 +5,7 @@ internal class MainGameLoop
     public int X = 1; //int that supplies cursor position value
     public int Y = 1;
 
-    public void GameLoop(MapManager ScreenInfo) 
+    public void GameLoop(MapManager map) 
     {
         Console.SetCursorPosition(X, Y); //sets cursor position to value of X & Y and prints @ at cords
         Console.Write("@");
@@ -13,10 +13,10 @@ internal class MainGameLoop
         while (true)
         {
             var key = Console.ReadKey(true); //waits and reads the key the user inputs into the console without typing the char into the console
-            if (key.Key == ConsoleKey.W) { MovePlayer(CanWalk, X, Y - 1); }
-            if (key.Key == ConsoleKey.A) { MovePlayer(CanWalk, X - 1, Y); }
-            if (key.Key == ConsoleKey.S) { MovePlayer(CanWalk, X, Y + 1); }
-            if (key.Key == ConsoleKey.D) { MovePlayer(CanWalk, X + 1, Y); }
+            if (key.Key == ConsoleKey.W) { MovePlayer(map, X, Y - 1); }
+            if (key.Key == ConsoleKey.A) { MovePlayer(map, X - 1, Y); }
+            if (key.Key == ConsoleKey.S) { MovePlayer(map, X, Y + 1); }
+            if (key.Key == ConsoleKey.D) { MovePlayer(map, X + 1, Y); }
             if (key.Key == ConsoleKey.Escape) // breaks out of loop if esc is pressed
             {
                 break;
@@ -25,14 +25,9 @@ internal class MainGameLoop
         }
     }
 
-    public void MovePlayer(MapManager screenInfo, int newX, int newY) //stops the game crashing when reaching edges of the console
+    public void MovePlayer(MapManager map, int newX, int newY) //stops the game crashing when reaching edges of the console
     {
-   /*     if (newX < 0 || newY < 0) 
-        { 
-            return;
-        }*/
-
-        if (screenInfo.CanWalk(newX, newY))
+        if (map.CanWalk(newX, newY))
         {
             Console.SetCursorPosition(X, Y);
             Console.Write(" ");
