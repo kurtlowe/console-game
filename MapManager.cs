@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ConsoleProject;
 
-namespace ConsoleProject;
 internal class MapManager
 {
-
     string[,] Map1Data = new string[,]
     {
             {"╔", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "╗"},
@@ -30,8 +24,6 @@ internal class MapManager
             {"╚", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "═", "╝"}
     };
 
-    
-
     public void Map1Generator() 
     {
         for (int i = 0; i < Map1Data.GetLength(0); i++)
@@ -46,7 +38,7 @@ internal class MapManager
 
     public bool CanWalk(int testX, int testY) 
     { 
-        if(Map1Data[testY, testX] == " ") return true;
+        if (Map1Data[testY, testX] == " ") return true;
         return false;
     }
 }
