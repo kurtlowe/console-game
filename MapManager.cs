@@ -26,6 +26,7 @@ internal class MapManager
 
     public void Map1Generator() 
     {
+        Console.SetCursorPosition(0, 0);
         for (int i = 0; i < _map1Data.GetLength(0); i++)
         {
             for (int j = 0; j < _map1Data.GetLength(1); j++)

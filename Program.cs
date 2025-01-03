@@ -1,4 +1,6 @@
-﻿var greeting = new Dialog(); // Calling and instance of a method from a different class
+﻿Console.CursorVisible = false;
+
+var greeting = new Dialog();
 greeting.DialogWelcomeText();
 
 var map = new MapManager();
